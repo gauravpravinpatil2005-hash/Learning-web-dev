@@ -1,0 +1,44 @@
+/* p {                                 // here p is called selector
+    font-family : sans-serif ;
+    color : red ;
+}
+
+li {
+    background-color : greenyellow ;
+    border : px solid black ;
+    margin-bottom : 5px ;
+} */
+
+html {
+
+    /* px means "pixels". The base font size is now 10 pixels high */
+    font-size: 10px;
+    
+    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+    font-family: "Roboto" , sans-serif ;
+
+}
+
+h1 {
+    font-size : 60px ;
+    text-align : center ;
+    margin-bottom: 10px ;
+}
+
+h2 {
+    font-size : 30px ;
+    text-align : center ;
+    margin-bottom: 10px ;
+}
+p,
+li {
+    font-size : 16px ;
+    line-height : 2 ;
+    letter-spacing : 1px ;
+    margin-left : 10px ;
+    margin-right : 10px ;
+}
+
+ul {
+    margin-left: 40px ;
+}
