@@ -1,0 +1,45 @@
+# -------------------------------
+# Day 0 Git Cheat Sheet
+# -------------------------------
+
+# 1️⃣ Initialize Git in your project folder
+git init
+# Creates a local Git repository
+
+# 2️⃣ Check status of your files
+git status
+# Shows which files are tracked, untracked, or modified
+
+# 3️⃣ Stage files for commit
+git add .
+# Stages all changed files
+# You can also do: git add index.html style.css
+
+# 4️⃣ Commit staged changes
+git commit -m "Your message here"
+# Saves a snapshot of your project with a message
+# Example: git commit -m "Day 0: HTML basics completed"
+
+# 5️⃣ Rename current branch to main
+git branch -M main
+# Git default branch is usually master; rename to main for GitHub
+
+# 6️⃣ Add remote GitHub repository
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+# Links local repo to your GitHub repo
+# Replace YOUR_USERNAME/YOUR_REPO_NAME with actual values
+
+# 7️⃣ Push commits to GitHub
+git push -u origin main
+# Sends local commits to GitHub and sets upstream branch
+
+# 8️⃣ Optional: View commit history
+git log
+# Shows all commits in reverse chronological order
+
+# -------------------------------
+# Notes:
+# - Use small descriptive commit messages
+# - Push often to keep GitHub updated
+# - No need to memorize now; copy-paste until familiar
+# -------------------------------
